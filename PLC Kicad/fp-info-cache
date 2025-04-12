@@ -1,4 +1,4 @@
-24226888067612044
+24235610356225771
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+BZT52C3V3-7-F
+SOD3715X135N
+
+
+0
+2
+2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -66226,6 +66233,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM321MF_NOPB
+SOT95P280X145-5N
+
+
+0
+5
+5
 LM2594M-3.3
 SOIC127P599X175-8N
 
@@ -66235,6 +66249,13 @@ SOIC127P599X175-8N
 8
 LM2594M-5.0
 SOIC127P599X175-8N
+
+
+0
+8
+8
+MC33072D
+SOIC127P600X175-8N
 
 
 0
@@ -70066,6 +70087,13 @@ Oscillator
 Oscillator_SeikoEpson_SG-8002DC
 8-lead dip package, row spacing 7.62 mm (300 mils)
 DIL DIP PDIP 2.54mm 7.62mm 300mil
+0
+4
+4
+PC817X2NIP0F
+SOP254P975X460-4N
+<b>PC817X1NIP0F</b><br>
+
 0
 4
 4
@@ -90523,6 +90551,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SRD-24VDC-SL-C
+RELAY_SRD-24VDC-SL-C
+
+
+0
+5
+5
 SS210
 DIOM4336X265N
 

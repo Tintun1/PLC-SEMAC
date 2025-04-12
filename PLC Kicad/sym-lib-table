@@ -7,4 +7,6 @@
   (lib (name "SS210")(type "KiCad")(uri "D:/KICAD/SS210/SS210.kicad_sym")(options "")(descr ""))
   (lib (name "MC33072D")(type "KiCad")(uri "D:/KICAD/MC33072D/MC33072D.kicad_sym")(options "")(descr ""))
   (lib (name "LM321MF_NOPB")(type "KiCad")(uri "D:/KICAD/LM321MF_NOPB/LM321MF_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "BZT52C3V3-7-F")(type "KiCad")(uri "D:/KICAD/BZT52C3V3-7-F/BZT52C3V3-7-F.kicad_sym")(options "")(descr ""))
+  (lib (name "PC817")(type "KiCad")(uri "D:/KICAD/PC817/PC817.kicad_sym")(options "")(descr ""))
 )
