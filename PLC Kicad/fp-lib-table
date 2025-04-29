@@ -8,4 +8,6 @@
   (lib (name "SN74HC14PWR")(type "KiCad")(uri "D:/KICAD/SN74HC14PWR")(options "")(descr ""))
   (lib (name "PC817X2NIP0F")(type "KiCad")(uri "D:/KICAD/PC817X2NIP0F")(options "")(descr ""))
   (lib (name "SN74HC541PWR")(type "KiCad")(uri "D:/KICAD/SN74HC541PWR")(options "")(descr ""))
+  (lib (name "M7")(type "KiCad")(uri "D:/KICAD/M7")(options "")(descr ""))
+  (lib (name "SRR1260-680M")(type "KiCad")(uri "D:/KICAD/SRR1260-680M")(options "")(descr ""))
 )

@@ -1410,6 +1410,151 @@
 				)
 			)
 		)
+		(symbol "Diode:1N5822"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5822"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?201AD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5822_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5822_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "EESTN5:BluePill"
 			(pin_names
 				(offset 1.016)
@@ -7189,6 +7334,12 @@
 		)
 	)
 	(junction
+		(at 162.56 450.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00f6352e-be22-4868-a939-d9fc0d05994f")
+	)
+	(junction
 		(at 217.17 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7213,22 +7364,10 @@
 		(uuid "1b7af2b0-21b8-4f1b-93c9-60dc75cf80e7")
 	)
 	(junction
-		(at 276.86 433.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23de80a1-881b-4717-9c5f-bb8ccaff9ce8")
-	)
-	(junction
 		(at 431.8 439.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2407b55c-6fdd-406c-91db-c6143211369e")
-	)
-	(junction
-		(at 297.18 433.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ad16995-eb1b-4416-92a1-c8fa525ae419")
 	)
 	(junction
 		(at 248.92 436.88)
@@ -7267,12 +7406,6 @@
 		(uuid "42a3bc37-96b1-45bb-bd5a-3ab2cb3ddd1f")
 	)
 	(junction
-		(at 201.93 441.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4483c517-4217-457d-8ded-1e8d68f998ad")
-	)
-	(junction
 		(at 198.12 289.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7289,6 +7422,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a7c1261-6c92-4aa9-9b64-cb8563f708e4")
+	)
+	(junction
+		(at 276.86 433.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52bcbfc6-4880-41d1-b7c0-92d596f5b9c6")
 	)
 	(junction
 		(at 683.26 231.648)
@@ -7313,12 +7452,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65acf510-6dd3-4bf0-ba57-385f071641ad")
-	)
-	(junction
-		(at 364.49 436.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6631933c-befb-4311-ae00-f2e0a1d80d2f")
 	)
 	(junction
 		(at 683.26 373.38)
@@ -7355,18 +7488,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e2c0f22-afb3-452c-b07b-703b65d4aede")
-	)
-	(junction
-		(at 172.72 436.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93fa60b7-40f4-4a6b-9bbe-3c24c34024c6")
-	)
-	(junction
-		(at 162.56 450.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9992ea38-7310-4ffc-a082-70c7716c7e27")
 	)
 	(junction
 		(at 683.26 391.414)
@@ -7453,6 +7574,12 @@
 		(uuid "d69cae26-bd93-4219-aa63-004d2ccdde37")
 	)
 	(junction
+		(at 364.49 436.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d920e344-83a2-4427-813a-371dc78f7df4")
+	)
+	(junction
 		(at 683.26 338.074)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7463,6 +7590,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0a58e5c-50c3-4cc9-8916-aeb5909a69ff")
+	)
+	(junction
+		(at 297.18 433.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f60232ba-ac13-48e7-93c5-8c3ea32d6d48")
 	)
 	(junction
 		(at 215.9 289.56)
@@ -7495,6 +7628,16 @@
 			(type default)
 		)
 		(uuid "013d15b5-2c23-4297-aaa9-f4f8d2057505")
+	)
+	(wire
+		(pts
+			(xy 364.49 450.85) (xy 364.49 457.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021b2292-8f5c-4b50-8001-9ca59d2025a9")
 	)
 	(wire
 		(pts
@@ -7628,16 +7771,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 433.07) (xy 297.18 433.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "086d9e05-e959-4015-bad6-b29881d42271")
-	)
-	(wire
-		(pts
 			(xy 158.75 436.88) (xy 162.56 436.88)
 		)
 		(stroke
@@ -7715,6 +7848,16 @@
 			(type default)
 		)
 		(uuid "0ae45b45-648a-4be2-b3e3-04590ef10c0d")
+	)
+	(wire
+		(pts
+			(xy 276.86 425.45) (xy 280.67 425.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9680df-ccc7-4705-aebc-106338f5879e")
 	)
 	(wire
 		(pts
@@ -7845,6 +7988,16 @@
 			(type default)
 		)
 		(uuid "12ee6849-9d5e-4ad8-8382-567a2db752ad")
+	)
+	(wire
+		(pts
+			(xy 158.75 441.96) (xy 162.56 441.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13490b5d-e6a9-4e1e-99a2-afa29bad4ef0")
 	)
 	(wire
 		(pts
@@ -8228,23 +8381,13 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 450.85) (xy 364.49 457.2)
+			(xy 290.83 425.45) (xy 294.64 425.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "271069e7-5c9e-4c3d-bed6-4ce81b6636d7")
-	)
-	(wire
-		(pts
-			(xy 353.06 436.88) (xy 364.49 436.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27c2889c-f0e4-41b5-bcce-968e3dbd587f")
+		(uuid "28005ec8-e7ca-482c-855b-64a33affccf6")
 	)
 	(wire
 		(pts
@@ -8318,16 +8461,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 429.26) (xy 189.23 429.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bfab0aa-2c3d-4f5b-8869-b3cd94f78735")
-	)
-	(wire
-		(pts
 			(xy 688.34 159.258) (xy 688.34 164.338)
 		)
 		(stroke
@@ -8345,16 +8478,6 @@
 			(type default)
 		)
 		(uuid "2c3410ee-7f2f-4305-9e51-fe25deb82b0f")
-	)
-	(wire
-		(pts
-			(xy 158.75 441.96) (xy 162.56 441.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c42b49e-02b2-431e-8056-7a5bdd7e8544")
 	)
 	(wire
 		(pts
@@ -8515,16 +8638,6 @@
 			(type default)
 		)
 		(uuid "34fa6e79-3de4-4f3e-b299-55a1545b4ed2")
-	)
-	(wire
-		(pts
-			(xy 276.86 425.45) (xy 280.67 425.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34fd4e03-0538-47d9-86be-22299c054c49")
 	)
 	(wire
 		(pts
@@ -8758,6 +8871,26 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 433.07) (xy 297.18 433.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3feb846f-a6e0-4146-b5e2-34f35590f9eb")
+	)
+	(wire
+		(pts
+			(xy 162.56 441.96) (xy 162.56 450.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401c6cc0-bc69-4549-95ec-3686ceb126c6")
+	)
+	(wire
+		(pts
 			(xy 683.26 245.872) (xy 683.26 250.952)
 		)
 		(stroke
@@ -8978,13 +9111,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 429.26) (xy 175.26 429.26)
+			(xy 276.86 433.07) (xy 280.67 433.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4aa4653a-abb0-4be2-bb6a-11535c7ff425")
+		(uuid "4a4775c1-c78d-4381-8c60-cd1ae0a4ad9d")
 	)
 	(wire
 		(pts
@@ -9238,16 +9371,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 441.96) (xy 162.56 450.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b1a4cc-357a-4efb-8c90-8dc9d0503e3f")
-	)
-	(wire
-		(pts
 			(xy 463.55 316.23) (xy 450.088 316.23)
 		)
 		(stroke
@@ -9355,16 +9478,6 @@
 			(type default)
 		)
 		(uuid "5b2c093b-73c0-4b84-9c66-28920b96df27")
-	)
-	(wire
-		(pts
-			(xy 189.23 426.72) (xy 189.23 429.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d57ec27-14b2-435b-a85c-e50fb56d6b76")
 	)
 	(polyline
 		(pts
@@ -9698,7 +9811,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 436.88) (xy 172.72 436.88)
+			(xy 170.18 436.88) (xy 176.53 436.88)
 		)
 		(stroke
 			(width 0)
@@ -9978,6 +10091,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 436.88) (xy 189.23 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1dda75-1a24-415f-9069-b6b3df4086c9")
+	)
+	(wire
+		(pts
 			(xy 690.88 268.224) (xy 701.548 268.224)
 		)
 		(stroke
@@ -10138,7 +10261,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 441.96) (xy 201.93 457.2)
+			(xy 201.93 439.42) (xy 201.93 457.2)
 		)
 		(stroke
 			(width 0)
@@ -10165,16 +10288,6 @@
 			(type default)
 		)
 		(uuid "83655b4f-ed2a-466e-8166-6c191791b530")
-	)
-	(wire
-		(pts
-			(xy 201.93 439.42) (xy 201.93 441.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83671da1-e1fb-4ef6-964d-7795f9ae76ed")
 	)
 	(wire
 		(pts
@@ -10428,16 +10541,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 433.07) (xy 280.67 433.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "906a68ca-baa0-4a42-828f-9503dc864560")
-	)
-	(wire
-		(pts
 			(xy 179.07 294.64) (xy 177.8 294.64)
 		)
 		(stroke
@@ -10528,7 +10631,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 436.88) (xy 369.57 436.88)
+			(xy 353.06 436.88) (xy 364.49 436.88)
 		)
 		(stroke
 			(width 0)
@@ -10698,16 +10801,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 436.88) (xy 175.26 436.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e4ecbe0-c392-4861-9b42-d9692c87edbb")
-	)
-	(wire
-		(pts
 			(xy 683.26 444.5) (xy 683.26 440.944)
 		)
 		(stroke
@@ -10848,6 +10941,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 450.85) (xy 162.56 457.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65f81b7-90cf-4c9b-b12d-d533afb09b47")
+	)
+	(wire
+		(pts
 			(xy 212.09 194.31) (xy 217.17 194.31)
 		)
 		(stroke
@@ -10885,16 +10988,6 @@
 			(type default)
 		)
 		(uuid "aa388b06-9603-4570-a12d-0a9607568d45")
-	)
-	(wire
-		(pts
-			(xy 270.51 424.18) (xy 270.51 433.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab056fec-42d7-40a0-a9e8-9f7a1b071cd5")
 	)
 	(wire
 		(pts
@@ -11015,16 +11108,6 @@
 			(type default)
 		)
 		(uuid "b275abcc-03f9-4002-821f-5b2750476c09")
-	)
-	(wire
-		(pts
-			(xy 290.83 425.45) (xy 294.64 425.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a61857-7bf2-42cf-a383-cf41557b0079")
 	)
 	(wire
 		(pts
@@ -11198,6 +11281,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 436.88) (xy 364.49 440.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6d860a-96cc-4b00-bc22-8ba77f3cb085")
+	)
+	(wire
+		(pts
 			(xy 290.83 276.86) (xy 298.45 276.86)
 		)
 		(stroke
@@ -11255,6 +11348,16 @@
 			(type default)
 		)
 		(uuid "bde34668-4caf-4850-a4e6-e666ab8ddf4b")
+	)
+	(wire
+		(pts
+			(xy 172.72 450.85) (xy 175.26 450.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde54b8e-7cf2-4fb0-bf9f-9dc73f623faa")
 	)
 	(wire
 		(pts
@@ -11415,16 +11518,6 @@
 			(type default)
 		)
 		(uuid "c7dd6490-a191-440b-8bde-af808b3af852")
-	)
-	(wire
-		(pts
-			(xy 163.83 450.85) (xy 162.56 450.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7fc40df-3cb7-4e80-971e-44dc0e17461b")
 	)
 	(wire
 		(pts
@@ -11858,16 +11951,6 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 436.88) (xy 364.49 440.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deeca248-431e-41d8-84cb-78a81d14763b")
-	)
-	(wire
-		(pts
 			(xy 431.8 401.32) (xy 435.61 401.32)
 		)
 		(stroke
@@ -12198,16 +12281,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 450.85) (xy 175.26 450.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f15047af-d430-410e-85d4-93eba6a4b54f")
-	)
-	(wire
-		(pts
 			(xy 683.26 458.724) (xy 683.26 463.804)
 		)
 		(stroke
@@ -12318,16 +12391,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 436.88) (xy 185.42 436.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6de3d97-b6a2-4b87-bd12-f38946fc766e")
-	)
-	(wire
-		(pts
 			(xy 464.82 363.22) (xy 469.9 363.22)
 		)
 		(stroke
@@ -12355,16 +12418,6 @@
 			(type default)
 		)
 		(uuid "f7ce6b2e-ebf8-49e2-bc54-2b4b933185c5")
-	)
-	(wire
-		(pts
-			(xy 162.56 450.85) (xy 162.56 457.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f84d7d7a-6a6c-4ac1-9e13-4ba8514585b1")
 	)
 	(wire
 		(pts
@@ -12418,6 +12471,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 450.85) (xy 165.1 450.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde9e135-7029-42e5-93e8-dc653f9cd319")
+	)
+	(wire
+		(pts
+			(xy 364.49 436.88) (xy 369.57 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf37479-a896-48bf-b22c-4a17d80c54f1")
+	)
+	(wire
+		(pts
 			(xy 633.73 390.398) (xy 632.46 390.398)
 		)
 		(stroke
@@ -12445,16 +12518,6 @@
 			(type default)
 		)
 		(uuid "ffd6bcb2-e160-41d6-8ad5-11eb5726733a")
-	)
-	(wire
-		(pts
-			(xy 172.72 436.88) (xy 172.72 429.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fffe29df-6398-4e99-8360-0028031325eb")
 	)
 	(rectangle
 		(start 424.688 236.728)
@@ -13060,7 +13123,7 @@
 		)
 		(uuid "33bffda7-0ed9-4fef-ae3c-c3d39f3ccfc2")
 	)
-	(label "5v1"
+	(label "5V"
 		(at 294.64 424.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13070,17 +13133,6 @@
 			(justify left bottom)
 		)
 		(uuid "3b62eeaa-6bca-491e-8401-49e90e6b6052")
-	)
-	(label "+5V"
-		(at 270.51 424.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3bb9e9e9-d9b8-4355-8105-3f0cab22d2d8")
 	)
 	(label "1Y hc14"
 		(at 163.83 342.9 0)
@@ -13114,17 +13166,6 @@
 			(justify left bottom)
 		)
 		(uuid "3ee9ccc4-0b9a-4cdd-9fb6-ce13690c3a22")
-	)
-	(label "24V"
-		(at 189.23 426.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "422da821-679e-499e-a688-454328d70296")
 	)
 	(label "1Y hc14"
 		(at 247.65 269.24 0)
@@ -14345,207 +14386,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SS210:SS210")
-		(at 248.92 445.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04cb0572-044c-4070-b0b7-a239e90b3678")
-		(property "Reference" "D4"
-			(at 251.46 444.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS210"
-			(at 251.46 447.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SS210:DIOM4336X265N"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMB-2 Taiwan Semiconductor"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N2306"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS210"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS22"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "8697e6bb-fd21-49b5-8d5f-16a3f55cbb12")
-		)
-		(pin "A"
-			(uuid "3904b0c5-bb17-4df3-a54b-c8eef830c9b4")
-		)
-		(instances
-			(project "PLC"
-				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:2N3904")
 		(at 680.72 400.558 0)
 		(unit 1)
@@ -14639,8 +14479,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CP"
-			(at 376.428 446.532 90)
+		(property "Value" "220uF"
+			(at 374.65 447.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15169,7 +15009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 176.53 354.838 90)
 			(effects
 				(font
@@ -16218,15 +16058,15 @@
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 373.38 434.34 90)
+		(property "Value" "68uH"
+			(at 373.38 435.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1260"
 			(at 373.38 436.88 0)
 			(effects
 				(font
@@ -16776,7 +16616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 477.52 398.018 90)
 			(effects
 				(font
@@ -17463,7 +17303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 176.53 344.678 90)
 			(effects
 				(font
@@ -17970,6 +17810,205 @@
 		)
 	)
 	(symbol
+		(lib_id "SS210:SS210")
+		(at 285.75 425.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "371fd1bb-5bb1-4fe0-8253-6179b42151df")
+		(property "Reference" "D5"
+			(at 285.75 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS210"
+			(at 285.75 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SS210:DIOM4336X265N"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB-2 Taiwan Semiconductor"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N2306"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SS210"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "SS22"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 285.75 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "1c0d0c7e-fe0f-483a-a8a2-c0f1ca6cd5c9")
+		)
+		(pin "A"
+			(uuid "17039862-0516-4624-8e04-e1f11f8951ae")
+		)
+		(instances
+			(project ""
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 683.26 263.398 0)
 		(unit 1)
@@ -18259,7 +18298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 208.28 246.888 90)
 			(effects
 				(font
@@ -18326,7 +18365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 172.72 265.938 90)
 			(effects
 				(font
@@ -18386,7 +18425,7 @@
 				)
 			)
 		)
-		(property "Value" "TB_1X2"
+		(property "Value" "24V"
 			(at 151.13 431.8 0)
 			(effects
 				(font
@@ -18628,7 +18667,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "43b15e78-adb3-4606-90c8-ad0dcaaa5924")
 		(property "Reference" "C3"
 			(at 270.51 442.6565 90)
@@ -18639,8 +18677,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CP"
-			(at 270.51 445.1965 90)
+		(property "Value" "220uF"
+			(at 269.748 447.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19202,7 +19240,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "68uH"
 			(at 258.064 435.102 90)
 			(effects
 				(font
@@ -19210,7 +19248,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1260"
 			(at 257.81 436.88 0)
 			(effects
 				(font
@@ -19389,6 +19427,207 @@
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SS210:SS210")
+		(at 248.92 445.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a2ad6be-84d7-462a-b195-529243e4d653")
+		(property "Reference" "D3"
+			(at 251.46 444.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS210"
+			(at 251.46 447.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SS210:DIOM4336X265N"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB-2 Taiwan Semiconductor"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N2306"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SS210"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "SS22"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 248.92 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "1f757ee9-9f4e-4d85-bde9-a44b007cc953")
+		)
+		(pin "A"
+			(uuid "acdc3b03-1bbd-481b-ac66-c7befc4405b8")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -19631,7 +19870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 171.45 291.338 90)
 			(effects
 				(font
@@ -20128,204 +20367,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SS210:SS210")
-		(at 285.75 433.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66a6ed4e-70b4-4af0-94e5-936a61c89bbd")
-		(property "Reference" "D5"
-			(at 285.75 430.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS210"
-			(at 285.496 436.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SS210:DIOM4336X265N"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMB-2 Taiwan Semiconductor"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N2306"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS210"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS22"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "80cdd773-ce1b-407b-97e2-9b5c3e23b018")
-		)
-		(pin "A"
-			(uuid "680da364-1d38-4f8a-a873-3ad663156933")
-		)
-		(instances
-			(project "PLC"
-				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EESTN5:RELAY_C")
 		(at 687.07 329.438 90)
 		(unit 1)
@@ -20426,7 +20467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 477.52 359.918 90)
 			(effects
 				(font
@@ -21052,204 +21093,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SS210:SS210")
-		(at 168.91 450.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6fe4048c-e26b-4119-9fb9-9d3166b1303d")
-		(property "Reference" "D1"
-			(at 168.91 448.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS210"
-			(at 168.91 453.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SS210:DIOM4336X265N"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMB-2 Taiwan Semiconductor"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N2306"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS210"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS22"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "d2ed6eb5-ed52-45c5-8038-53a847b63f2f")
-		)
-		(pin "A"
-			(uuid "8dee5c2c-728e-45d0-9785-fa806addca63")
-		)
-		(instances
-			(project ""
-				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 709.93 276.098 0)
 		(unit 1)
@@ -21346,7 +21189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 208.28 196.088 90)
 			(effects
 				(font
@@ -21528,207 +21371,6 @@
 			(project ""
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SS210:SS210")
-		(at 364.49 445.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "730ff36d-7dfc-4c9a-a800-98712077f663")
-		(property "Reference" "D7"
-			(at 367.03 444.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS210"
-			(at 367.03 447.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SS210:DIOM4336X265N"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMB-2 Taiwan Semiconductor"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N2306"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS210"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS22"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "4d8aa7f7-02c3-41d4-9158-3a5fc3f44087")
-		)
-		(pin "A"
-			(uuid "825079cc-99a4-475e-b2b6-a529898a86d3")
-		)
-		(instances
-			(project "PLC"
-				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -21955,7 +21597,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 389.89 430.784 90)
 			(effects
 				(font
@@ -22097,7 +21739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 477.52 403.098 90)
 			(effects
 				(font
@@ -22437,7 +22079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 172.72 189.738 90)
 			(effects
 				(font
@@ -22639,7 +22281,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 308.102 447.04 0)
 			(effects
 				(font
@@ -22715,7 +22357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 433.578 369.57 90)
 			(effects
 				(font
@@ -23627,8 +23269,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 197.612 456.692 0)
+		(property "Value" "1uF"
+			(at 197.104 455.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24161,204 +23803,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SS210:SS210")
-		(at 285.75 425.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fa24909-ee84-4a5c-b2c4-5eabf4ec6aa7")
-		(property "Reference" "D6"
-			(at 285.75 423.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS210"
-			(at 285.75 428.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SS210:DIOM4336X265N"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMB-2 Taiwan Semiconductor"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N2306"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS210"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS22"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "5914d428-c017-44de-9be3-77af78176881")
-		)
-		(pin "A"
-			(uuid "8cf9c38b-897f-45a9-98f0-0c498458052d")
-		)
-		(instances
-			(project "PLC"
-				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 494.03 412.75 270)
 		(unit 1)
@@ -24440,6 +23884,207 @@
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SS210:SS210")
+		(at 364.49 445.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3a9f61b-4b87-4f34-9502-3078180db516")
+		(property "Reference" "D6"
+			(at 367.03 444.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS210"
+			(at 367.03 447.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SS210:DIOM4336X265N"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB-2 Taiwan Semiconductor"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N2306"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SS210"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "SS22"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 364.49 445.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "0505b3e1-db5d-4e26-b7fa-1bdb551ba653")
+		)
+		(pin "A"
+			(uuid "00054a27-b320-4805-b801-f5796322a25c")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -24536,7 +24181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 171.45 316.738 90)
 			(effects
 				(font
@@ -25214,7 +24859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 208.28 272.288 90)
 			(effects
 				(font
@@ -25281,7 +24926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 477.52 364.998 90)
 			(effects
 				(font
@@ -25415,7 +25060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 172.72 240.538 90)
 			(effects
 				(font
@@ -25738,204 +25383,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SS210:SS210")
-		(at 180.34 429.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bcc329c9-1152-412e-83f3-940416a921dc")
-		(property "Reference" "D3"
-			(at 180.34 426.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS210"
-			(at 180.34 432.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SS210:DIOM4336X265N"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMB-2 Taiwan Semiconductor"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N2306"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS210"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS22"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 180.34 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "3c22e134-1422-4cae-b535-ba89d6764901")
-		)
-		(pin "A"
-			(uuid "256c2b18-d40a-4528-929d-902c14be18bc")
-		)
-		(instances
-			(project "PLC"
-				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 494.03 450.85 270)
 		(unit 1)
@@ -26089,6 +25536,205 @@
 		)
 	)
 	(symbol
+		(lib_id "SS210:SS210")
+		(at 285.75 433.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c13d6af8-bcc7-437a-b56a-350e1eb3d35d")
+		(property "Reference" "D4"
+			(at 285.75 426.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS210"
+			(at 285.75 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SS210:DIOM4336X265N"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiwan Semiconductor"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB-2 Taiwan Semiconductor"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N2306"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SS210"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "SS22"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Taiwan Semiconductor"
+			(at 285.75 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "1b378483-8127-4089-94a8-6386f27f3b86")
+		)
+		(pin "A"
+			(uuid "f3f2fd29-0dce-4dca-ae38-0963467cef49")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4007")
 		(at 677.164 275.336 270)
 		(mirror x)
@@ -26171,6 +25817,142 @@
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5822")
+		(at 180.34 436.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c48dd43c-f2c8-46fd-8bcd-c935abe8673a")
+		(property "Reference" "D2"
+			(at 180.6575 430.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5822"
+			(at 180.6575 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 180.34 432.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+			(at 180.34 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+			(at 180.34 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a2da2c6-f014-48d9-8cc7-39b25dfbcd1c")
+		)
+		(pin "1"
+			(uuid "d4fd1541-e85c-41ef-abc9-9aec6203fe7c")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5822")
+		(at 168.91 450.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c49064ab-0dfc-4788-a9fe-3bfe9b2de00a")
+		(property "Reference" "D1"
+			(at 168.5925 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5822"
+			(at 168.5925 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 168.91 455.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+			(at 168.91 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+			(at 168.91 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5ac0bf2-51cf-498b-afba-071ee484b5a1")
+		)
+		(pin "1"
+			(uuid "93a0f1d9-ca6f-4399-8f96-9f6b6ebcc6fb")
+		)
+		(instances
+			(project ""
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -26476,7 +26258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EESTN5:led_5mm_green"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 394.716 441.96 0)
 			(effects
 				(font
@@ -26823,7 +26605,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 176.53 385.318 90)
 			(effects
 				(font
@@ -27116,8 +26898,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CP"
-			(at 185.674 456.946 90)
+		(property "Value" "470uF"
+			(at 181.864 455.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27380,7 +27162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 176.53 375.158 90)
 			(effects
 				(font
@@ -27514,7 +27296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 207.01 297.688 90)
 			(effects
 				(font
@@ -27815,204 +27597,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SS210:SS210")
-		(at 180.34 436.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc518447-f0c8-460f-8a96-d452764cc1e8")
-		(property "Reference" "D2"
-			(at 180.34 434.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS210"
-			(at 180.34 439.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SS210:DIOM4336X265N"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMB-2 Taiwan Semiconductor"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N2306"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS210"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS22"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "f70afbce-b4ab-44c6-a47f-c22cdb2e604e")
-		)
-		(pin "A"
-			(uuid "1952f513-6ec2-4333-b643-cd8fa275cff4")
-		)
-		(instances
-			(project "PLC"
-				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 201.93 457.2 0)
 		(unit 1)
@@ -28238,7 +27822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 172.72 215.138 90)
 			(effects
 				(font
@@ -28535,7 +28119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 439.42 364.998 90)
 			(effects
 				(font
@@ -28602,7 +28186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 207.01 323.088 90)
 			(effects
 				(font
@@ -28669,7 +28253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 176.53 364.998 90)
 			(effects
 				(font
@@ -29180,8 +28764,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CP"
-			(at 292.354 447.294 90)
+		(property "Value" "470uF"
+			(at 288.798 447.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29377,7 +28961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 208.28 221.488 90)
 			(effects
 				(font
@@ -29588,7 +29172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "EESTN5:R_0805"
 			(at 176.53 395.478 90)
 			(effects
 				(font

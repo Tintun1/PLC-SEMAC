@@ -7,4 +7,5 @@
   (lib (name "V0805-SMD-R _Red_")(type "KiCad")(uri "D:/KICAD/V0805-SMD-R _Red_/V0805-SMD-R _Red_.kicad_sym")(options "")(descr ""))
   (lib (name "SS210")(type "KiCad")(uri "D:/KICAD/SS210/SS210.kicad_sym")(options "")(descr ""))
   (lib (name "SN74HC14PWR")(type "KiCad")(uri "D:/KICAD/SN74HC14PWR/SN74HC14PWR.kicad_sym")(options "")(descr ""))
+  (lib (name "M7")(type "KiCad")(uri "D:/KICAD/M7/M7.kicad_sym")(options "")(descr ""))
 )
