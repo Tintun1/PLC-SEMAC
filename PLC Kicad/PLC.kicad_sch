@@ -1410,7 +1410,7 @@
 				)
 			)
 		)
-		(symbol "Diode:1N5822"
+		(symbol "Diode:SS210"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -1425,7 +1425,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5822"
+			(property "Value" "SS210"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1433,7 +1433,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SMA"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -1442,7 +1442,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
+			(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1451,7 +1451,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
+			(property "Description" "100V 2A Schottky Diode, SMA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1469,7 +1469,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?201AD*"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1478,7 +1478,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N5822_0_1"
+			(symbol "SS210_0_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy -1.27 0)
@@ -1516,7 +1516,7 @@
 					)
 				)
 			)
-			(symbol "1N5822_1_1"
+			(symbol "SS210_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -6133,372 +6133,6 @@
 				)
 			)
 		)
-		(symbol "SS210:SS210"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SS210"
-				(at -5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SS210:DIOM4336X265N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Taiwan Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SMB-2 Taiwan Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "N2306"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "SS210"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "SS22"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Taiwan Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SS210_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.016) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_BJT:2N3904"
 			(pin_names
 				(offset 0) hide)
@@ -7236,102 +6870,6 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 162.56 450.85)
@@ -7370,12 +6908,6 @@
 		(uuid "2407b55c-6fdd-406c-91db-c6143211369e")
 	)
 	(junction
-		(at 248.92 436.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bee7116-e717-4cb6-afc5-43fd2f20f48b")
-	)
-	(junction
 		(at 431.8 401.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7388,7 +6920,17 @@
 		(uuid "335e87bc-5cad-4fc5-b0ab-c49f01068d76")
 	)
 	(junction
+<<<<<<< HEAD
 		(at 689.102 393.446)
+=======
+		(at 248.92 436.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "364e30de-7c30-4cf0-864c-d03b55d70f35")
+	)
+	(junction
+		(at 685.8 176.276)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d5828ce-4343-4304-ba62-e14e4d11dd7a")
@@ -7631,7 +7173,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 450.85) (xy 364.49 457.2)
+			(xy 364.49 448.31) (xy 364.49 457.2)
 		)
 		(stroke
 			(width 0)
@@ -8131,6 +7673,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 248.92 436.88) (xy 254 436.88)
 		)
 		(stroke
@@ -8142,6 +7685,9 @@
 	(wire
 		(pts
 			(xy 710.692 321.31) (xy 694.182 321.31)
+=======
+			(xy 707.39 211.074) (xy 690.88 211.074)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		)
 		(stroke
 			(width 0)
@@ -8181,6 +7727,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 248.92 450.85) (xy 248.92 457.2)
 		)
 		(stroke
@@ -8192,6 +7739,9 @@
 	(wire
 		(pts
 			(xy 696.722 326.39) (xy 696.722 323.596)
+=======
+			(xy 693.42 216.154) (xy 693.42 213.36)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		)
 		(stroke
 			(width 0)
@@ -8351,6 +7901,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 425.45) (xy 294.64 425.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247b0d1c-1d69-4f74-8933-97ed209b75d1")
+	)
+	(wire
+		(pts
 			(xy 203.2 295.91) (xy 198.12 295.91)
 		)
 		(stroke
@@ -8361,6 +7921,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 638.302 179.07) (xy 638.302 185.42)
 		)
 		(stroke
@@ -8372,22 +7933,15 @@
 	(wire
 		(pts
 			(xy 689.102 393.446) (xy 689.102 389.89)
+=======
+			(xy 685.8 176.276) (xy 685.8 172.72)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "26288ebc-80d7-4ac5-b0c5-19d5103ec7c0")
-	)
-	(wire
-		(pts
-			(xy 290.83 425.45) (xy 294.64 425.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28005ec8-e7ca-482c-855b-64a33affccf6")
 	)
 	(wire
 		(pts
@@ -8558,16 +8112,6 @@
 			(type default)
 		)
 		(uuid "2e232087-8b86-4959-b61e-e0895a2cc696")
-	)
-	(wire
-		(pts
-			(xy 248.92 440.69) (xy 248.92 436.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e54c724-d695-4766-a8e7-d6399f78888a")
 	)
 	(wire
 		(pts
@@ -8878,16 +8422,6 @@
 			(type default)
 		)
 		(uuid "3fb34eb4-b5f0-4a4a-8520-9056c9467385")
-	)
-	(wire
-		(pts
-			(xy 290.83 433.07) (xy 297.18 433.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3feb846f-a6e0-4146-b5e2-34f35590f9eb")
 	)
 	(wire
 		(pts
@@ -9838,6 +9372,16 @@
 			(type default)
 		)
 		(uuid "6bef3e74-3dec-44d0-8544-2bc6c6d51942")
+	)
+	(wire
+		(pts
+			(xy 248.92 448.31) (xy 248.92 457.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c85005b-de2d-40fe-97cc-f120332d62d1")
 	)
 	(wire
 		(pts
@@ -10881,6 +10425,29 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
+=======
+			(xy 248.92 436.88) (xy 248.92 440.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0fb1488-40f6-4946-b438-256ad51be290")
+	)
+	(wire
+		(pts
+			(xy 455.168 285.75) (xy 463.55 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c37a3e-54b6-4b75-b62b-22c037c975fa")
+	)
+	(wire
+		(pts
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 			(xy 467.36 444.5) (xy 467.36 454.66)
 		)
 		(stroke
@@ -11118,6 +10685,16 @@
 			(type default)
 		)
 		(uuid "b0e10350-c62f-46e9-8acb-eda266710453")
+	)
+	(wire
+		(pts
+			(xy 635 335.28) (xy 635 341.884)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b171c961-2b5f-45a5-877c-6f5e32056522")
 	)
 	(wire
 		(pts
@@ -12471,17 +12048,29 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 458.47 285.75) (xy 466.09 285.75)
+=======
+			(xy 288.29 433.07) (xy 297.18 433.07)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "f8a01038-239a-4989-bbda-ee3860badc8d")
 	)
 	(wire
 		(pts
 			(xy 683.006 215.646) (xy 689.102 215.646)
+=======
+		(uuid "f909f718-9292-4671-bda2-9321ed8b4652")
+	)
+	(wire
+		(pts
+			(xy 679.704 371.602) (xy 685.8 371.602)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		)
 		(stroke
 			(width 0)
@@ -12571,7 +12160,21 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 461.01 311.15) (xy 466.09 311.15)
+=======
+			(xy 248.92 436.88) (xy 254 436.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feaec7e8-4fff-47e0-8e9a-5f08bfe9d4c0")
+	)
+	(wire
+		(pts
+			(xy 455.168 283.21) (xy 463.55 283.21)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		)
 		(stroke
 			(width 0)
@@ -13806,17 +13409,44 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 452.628 319.278 0)
+=======
+		(lib_id "Diode:SS210")
+		(at 180.34 436.88 180)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
 		(uuid "01d4bd56-5c84-4fab-95db-c1768838dfed")
 		(property "Reference" "#PWR037"
 			(at 452.628 325.628 0)
+=======
+		(uuid "01e115c5-72f8-4460-be89-6996e5e85533")
+		(property "Reference" "D3"
+			(at 180.6575 430.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS210"
+			(at 180.6575 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 180.34 432.435 0)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13824,6 +13454,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Value" "GND"
 			(at 452.628 323.85 0)
 			(effects
@@ -13834,6 +13465,10 @@
 		)
 		(property "Footprint" ""
 			(at 452.628 319.278 0)
+=======
+		(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
+			(at 180.34 436.88 0)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13841,8 +13476,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Datasheet" ""
 			(at 452.628 319.278 0)
+=======
+		(property "Description" "100V 2A Schottky Diode, SMA"
+			(at 180.34 436.88 0)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13850,6 +13490,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 452.628 319.278 0)
 			(effects
@@ -13858,14 +13499,18 @@
 				)
 				(hide yes)
 			)
+=======
+		(pin "2"
+			(uuid "52e1f72f-f02a-4a1d-b474-f9333d90e494")
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		)
 		(pin "1"
-			(uuid "fca09e96-70ac-48b5-8061-c1f3286645a7")
+			(uuid "1a26d141-45df-4c2f-9848-44a3b079d861")
 		)
 		(instances
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "#PWR037")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13973,7 +13618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EESTN5:FUSIBLE"
 			(at 166.37 438.658 90)
 			(effects
 				(font
@@ -14986,6 +14631,72 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 685.8 302.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e2b5958-8b31-4b36-b6e1-cf5e2db78b08")
+		(property "Reference" "#PWR056"
+			(at 685.8 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 685.8 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 685.8 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 685.8 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 685.8 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e05c0d7-872d-455a-b1df-a20efd20de2f")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 307.34 457.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15775,7 +15486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "EESTN5:DIP-4_PC817"
 			(at 181.61 322.58 0)
 			(effects
 				(font
@@ -16308,6 +16019,72 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 635 341.884 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e655111-7634-4ab0-a6a7-595418581682")
+		(property "Reference" "#PWR016"
+			(at 635 348.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 635 346.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 635 341.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 635 341.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 635 341.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81df5c04-47d3-43ab-ab49-2cfc40db2f55")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 196.85 457.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16658,6 +16435,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS210")
+		(at 284.48 425.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21c62d81-5faf-4b2a-9400-f25d2ea58f43")
+		(property "Reference" "D2"
+			(at 284.7975 418.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS210"
+			(at 284.7975 421.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 284.48 421.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
+			(at 284.48 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 2A Schottky Diode, SMA"
+			(at 284.48 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f62d76ed-cf2d-42ba-b796-ed300e910d31")
+		)
+		(pin "1"
+			(uuid "5cf18598-0690-4c42-bf27-f08d5be47e17")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 189.23 364.49 0)
 		(unit 1)
@@ -16718,6 +16563,138 @@
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 635 394.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23a933d7-3462-4dcd-9d92-157fb5a675d6")
+		(property "Reference" "#PWR020"
+			(at 635 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 635 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 635 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 635 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 635 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6efbb33-9eec-40e9-a54c-1fcdab02ddc5")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 635 448.056 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24166b48-72d1-4f01-b2bf-3865ea2647b8")
+		(property "Reference" "#PWR024"
+			(at 635 454.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 635 453.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 635 448.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 635 448.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 635 448.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60f93432-d632-4b17-a49c-bff1359d1ee0")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -16785,6 +16762,74 @@
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS210")
+		(at 168.91 450.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26ce529d-5c39-4847-8477-1e2e0328d437")
+		(property "Reference" "D1"
+			(at 168.5925 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS210"
+			(at 168.5925 447.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 168.91 455.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
+			(at 168.91 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 2A Schottky Diode, SMA"
+			(at 168.91 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "561f8ad4-9709-4066-999a-c59e82c440e3")
+		)
+		(pin "1"
+			(uuid "dd14d514-70a6-4df4-86b6-5b5f3e0c2ffc")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -17342,6 +17387,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 532.13 275.59 0)
 		(unit 1)
@@ -17408,6 +17454,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		(lib_id "EESTN5:TB_1X2")
 		(at 532.13 401.32 180)
 		(unit 1)
@@ -17544,6 +17592,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 638.302 345.44 0)
 		(unit 1)
@@ -17610,6 +17659,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		(lib_id "Device:R")
 		(at 477.52 439.42 90)
 		(unit 1)
@@ -17936,205 +17987,6 @@
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "LED6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SS210:SS210")
-		(at 285.75 425.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "371fd1bb-5bb1-4fe0-8253-6179b42151df")
-		(property "Reference" "D5"
-			(at 285.75 419.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS210"
-			(at 285.75 421.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SS210:DIOM4336X265N"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMB-2 Taiwan Semiconductor"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N2306"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS210"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS22"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 285.75 425.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "1c0d0c7e-fe0f-483a-a8a2-c0f1ca6cd5c9")
-		)
-		(pin "A"
-			(uuid "17039862-0516-4624-8e04-e1f11f8951ae")
-		)
-		(instances
-			(project ""
-				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -18632,7 +18484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PC817X2NIP0F:SOP254P975X460-4N"
+		(property "Footprint" "EESTN5:DIP-4_PC817"
 			(at 457.2 441.96 0)
 			(effects
 				(font
@@ -19489,6 +19341,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS210")
+		(at 248.92 444.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5141ccf1-2891-43d4-81dd-6270782a04fc")
+		(property "Reference" "D7"
+			(at 251.46 442.9124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS210"
+			(at 251.46 445.4524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 244.475 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
+			(at 248.92 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 2A Schottky Diode, SMA"
+			(at 248.92 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fb1fe92-85a2-4e71-b0e0-864c90a249c6")
+		)
+		(pin "1"
+			(uuid "dd29f292-506b-4526-b4ec-8e55e4e9653e")
+		)
+		(instances
+			(project ""
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EESTN5:Screw_Terminal_01x04")
 		(at 453.39 288.29 180)
 		(unit 1)
@@ -19563,6 +19485,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 685.8 408.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52abbcf3-4f70-425f-b096-fde46fd16c79")
+		(property "Reference" "#PWR023"
+			(at 685.8 415.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 685.8 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 685.8 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 685.8 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 685.8 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd63a665-1ade-4f60-8272-d2b820e0f772")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 529.59 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52f4859b-0973-473a-9176-657301189e1d")
+		(property "Reference" "#PWR036"
+			(at 529.59 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 529.59 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 529.59 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 529.59 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 529.59 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47370833-5913-40df-ae30-f04204f27850")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 633.222 440.69 90)
 		(unit 1)
@@ -19631,45 +19685,17 @@
 		)
 	)
 	(symbol
-		(lib_id "SS210:SS210")
-		(at 248.92 445.77 90)
+		(lib_id "power:Earth")
+		(at 635 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5a2ad6be-84d7-462a-b195-529243e4d653")
-		(property "Reference" "D3"
-			(at 251.46 444.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS210"
-			(at 251.46 447.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SS210:DIOM4336X265N"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 445.77 0)
+		(uuid "54c212af-0a1a-4f12-a21e-4bae6780f678")
+		(property "Reference" "#PWR032"
+			(at 635 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19677,8 +19703,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 248.92 445.77 0)
+		(property "Value" "Earth"
+			(at 635 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 635 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19686,146 +19720,31 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 248.92 445.77 0)
+		(property "Datasheet" "~"
+			(at 635 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-			(at 248.92 445.77 0)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 635 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Package" "SMB-2 Taiwan Semiconductor"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N2306"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS210"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS22"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 248.92 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "1f757ee9-9f4e-4d85-bde9-a44b007cc953")
-		)
-		(pin "A"
-			(uuid "acdc3b03-1bbd-481b-ac66-c7befc4405b8")
+		(pin "1"
+			(uuid "f7260388-fbe3-4673-9634-18b2cd104465")
 		)
 		(instances
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "D3")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -19977,6 +19896,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 635 288.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "606f5f74-f85f-483e-88df-ee45540c31c9")
+		(property "Reference" "#PWR053"
+			(at 635 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 635 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 635 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 635 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 635 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24ea7efc-a440-4db6-aeac-f83e39f2376b")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EESTN5:LED")
 		(at 184.15 373.38 0)
 		(unit 1)
@@ -20111,6 +20096,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 685.8 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "610c9c7c-48c6-49af-8c7f-1d73868c1b35")
+		(property "Reference" "#PWR035"
+			(at 685.8 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 685.8 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 685.8 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 685.8 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 685.8 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e4e257d-dd12-48af-84b3-b088d36d8053")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 633.73 227.33 90)
 		(unit 1)
@@ -20204,7 +20255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PC817X2NIP0F:SOP254P975X460-4N"
+		(property "Footprint" "EESTN5:DIP-4_PC817"
 			(at 457.2 403.86 0)
 			(effects
 				(font
@@ -21648,6 +21699,72 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 685.8 355.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73856fe5-d098-4859-9d09-13018b5adfe9")
+		(property "Reference" "#PWR019"
+			(at 685.8 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 685.8 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 685.8 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 685.8 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 685.8 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6abc4fcc-7232-4724-9b0d-d7669136441e")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 248.92 457.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22187,6 +22304,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 685.8 462.026 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "797d3424-ef07-4e65-be37-cee85106c8e1")
+		(property "Reference" "#PWR027"
+			(at 685.8 468.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 685.8 467.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 685.8 462.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 685.8 462.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 685.8 462.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c09efb50-36b7-4051-a8fc-c635e493a953")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 172.72 187.96 90)
 		(unit 1)
@@ -22331,6 +22514,72 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 450.088 319.278 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d540d8c-ef3b-4ed9-a596-9c3c61ccb94c")
+		(property "Reference" "#PWR037"
+			(at 450.088 325.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 450.088 324.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 450.088 319.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 450.088 319.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 450.088 319.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c0234db-ffdf-4c5b-90d3-3b749595db68")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 292.1 292.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22390,6 +22639,72 @@
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 685.8 249.174 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f5f13d2-e676-485d-b2da-28d8b31a0733")
+		(property "Reference" "#PWR031"
+			(at 685.8 255.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 685.8 254.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 685.8 249.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 685.8 249.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 685.8 249.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c534c5e4-86df-46e4-b31d-f6741cfa485f")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -22624,7 +22939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "M7:DIOM505270X240"
+		(property "Footprint" "EESTN5:DO-201AD"
 			(at 494.03 374.65 0)
 			(effects
 				(font
@@ -22752,6 +23067,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 638.302 185.42 0)
 		(unit 1)
@@ -22818,6 +23134,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		(lib_id "Device:C")
 		(at 207.01 289.56 90)
 		(unit 1)
@@ -22977,7 +23295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM2594M-5.0:SOIC127P599X175-8N"
+		(property "Footprint" "EESTN5:SOIC-8_Hand_Soldering"
 			(at 219.71 444.5 0)
 			(effects
 				(font
@@ -23110,17 +23428,44 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 638.302 292.1 0)
+=======
+		(lib_id "Diode:SS210")
+		(at 284.48 433.07 180)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
 		(uuid "95c5da24-9d9c-4f20-a375-b7c895c7221f")
 		(property "Reference" "#PWR024"
 			(at 638.302 298.45 0)
+=======
+		(uuid "94e11d51-ea8d-4c3c-bf8e-3565e55d07ef")
+		(property "Reference" "D4"
+			(at 284.7975 426.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS210"
+			(at 284.7975 429.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 284.48 428.625 0)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23128,6 +23473,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Value" "GND"
 			(at 638.302 297.18 0)
 			(effects
@@ -23138,6 +23484,10 @@
 		)
 		(property "Footprint" ""
 			(at 638.302 292.1 0)
+=======
+		(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
+			(at 284.48 433.07 0)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23145,8 +23495,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Datasheet" ""
 			(at 638.302 292.1 0)
+=======
+		(property "Description" "100V 2A Schottky Diode, SMA"
+			(at 284.48 433.07 0)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23154,6 +23509,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 638.302 292.1 0)
 			(effects
@@ -23162,14 +23518,18 @@
 				)
 				(hide yes)
 			)
+=======
+		(pin "2"
+			(uuid "c219a1b9-dadc-4ee2-9290-7c8aac04f38e")
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		)
 		(pin "1"
-			(uuid "bb66df94-381e-426a-ac7c-fb11e6fb0cab")
+			(uuid "7e5f61b1-db01-4c4d-a0fd-4f8608ec1f1b")
 		)
 		(instances
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "#PWR024")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -23803,6 +24163,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 638.302 398.78 0)
 		(unit 1)
@@ -23869,6 +24230,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		(lib_id "Diode:1N4148")
 		(at 494.03 412.75 270)
 		(unit 1)
@@ -23895,7 +24258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "M7:DIOM505270X240"
+		(property "Footprint" "EESTN5:DO-201AD"
 			(at 494.03 412.75 0)
 			(effects
 				(font
@@ -23950,207 +24313,6 @@
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SS210:SS210")
-		(at 364.49 445.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3a9f61b-4b87-4f34-9502-3078180db516")
-		(property "Reference" "D6"
-			(at 367.03 444.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS210"
-			(at 367.03 447.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SS210:DIOM4336X265N"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMB-2 Taiwan Semiconductor"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N2306"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS210"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS22"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 364.49 445.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "0505b3e1-db5d-4e26-b7fa-1bdb551ba653")
-		)
-		(pin "A"
-			(uuid "00054a27-b320-4805-b801-f5796322a25c")
-		)
-		(instances
-			(project "PLC"
-				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -24901,6 +25063,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 635 235.204 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adf605d6-9575-4c2b-94c1-0962d1a16222")
+		(property "Reference" "#PWR028"
+			(at 635 241.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 635 240.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 635 235.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 635 235.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 635 235.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9a27d8d-662c-460a-b978-00285bffcfa5")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 208.28 270.51 90)
 		(unit 1)
@@ -25235,6 +25463,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 638.302 239.014 0)
 		(unit 1)
@@ -25301,6 +25530,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		(lib_id "EESTN5:TB_1X2")
 		(at 210.82 345.44 0)
 		(unit 1)
@@ -25541,7 +25772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "M7:DIOM505270X240"
+		(property "Footprint" "EESTN5:DO-201AD"
 			(at 494.03 450.85 0)
 			(effects
 				(font
@@ -25668,205 +25899,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SS210:SS210")
-		(at 285.75 433.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c13d6af8-bcc7-437a-b56a-350e1eb3d35d")
-		(property "Reference" "D4"
-			(at 285.75 426.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS210"
-			(at 285.75 429.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SS210:DIOM4336X265N"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiwan Semiconductor"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.65mm"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMB-2 Taiwan Semiconductor"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=eda"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N2306"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SS210/taiwan/view-part/?ref=snap"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SS210"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            2A, 100V, Schottky Rectifier\n                        \n"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "SS22"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 285.75 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "1b378483-8127-4089-94a8-6386f27f3b86")
-		)
-		(pin "A"
-			(uuid "f3f2fd29-0dce-4dca-ae38-0963467cef49")
-		)
-		(instances
-			(project "PLC"
-				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4007")
 		(at 683.006 437.388 270)
 		(mirror x)
@@ -25949,142 +25981,6 @@
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5822")
-		(at 180.34 436.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c48dd43c-f2c8-46fd-8bcd-c935abe8673a")
-		(property "Reference" "D2"
-			(at 180.6575 430.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5822"
-			(at 180.6575 433.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 180.34 432.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
-			(at 180.34 436.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a2da2c6-f014-48d9-8cc7-39b25dfbcd1c")
-		)
-		(pin "1"
-			(uuid "d4fd1541-e85c-41ef-abc9-9aec6203fe7c")
-		)
-		(instances
-			(project "PLC"
-				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5822")
-		(at 168.91 450.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c49064ab-0dfc-4788-a9fe-3bfe9b2de00a")
-		(property "Reference" "D1"
-			(at 168.5925 444.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5822"
-			(at 168.5925 447.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 168.91 455.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
-			(at 168.91 450.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5ac0bf2-51cf-498b-afba-071ee484b5a1")
-		)
-		(pin "1"
-			(uuid "93a0f1d9-ca6f-4399-8f96-9f6b6ebcc6fb")
-		)
-		(instances
-			(project ""
-				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -26880,7 +26776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM2594M-3.3:SOIC127P599X175-8N"
+		(property "Footprint" "EESTN5:SOIC-8_Hand_Soldering"
 			(at 335.28 444.5 0)
 			(effects
 				(font
@@ -27796,6 +27692,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:Earth")
 		(at 689.102 359.41 0)
 		(unit 1)
@@ -27862,6 +27759,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		(lib_id "Device:C")
 		(at 208.28 213.36 90)
 		(unit 1)
@@ -28588,7 +28487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PC817X2NIP0F:SOP254P975X460-4N"
+		(property "Footprint" "EESTN5:DIP-4_PC817"
 			(at 457.2 365.76 0)
 			(effects
 				(font
@@ -28748,6 +28647,7 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 638.302 452.12 0)
 		(unit 1)
@@ -28814,6 +28714,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		(lib_id "power:Earth")
 		(at 196.85 246.38 0)
 		(unit 1)
@@ -29070,17 +28972,46 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 179.07 220.98 0)
+=======
+		(lib_id "Diode:SS210")
+		(at 364.49 444.5 270)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
 		(uuid "f1a34761-a4be-45f1-8b45-bbf456dbccf2")
 		(property "Reference" "#PWR059"
 			(at 179.07 227.33 0)
+=======
+		(uuid "f0f5e29e-7922-4679-9d46-51918b06dc6b")
+		(property "Reference" "D5"
+			(at 367.03 442.9124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS210"
+			(at 367.03 445.4524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 360.045 444.5 0)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29088,6 +29019,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Value" "GND"
 			(at 179.07 226.06 0)
 			(effects
@@ -29098,6 +29030,10 @@
 		)
 		(property "Footprint" ""
 			(at 179.07 220.98 0)
+=======
+		(property "Datasheet" "https://www.wontop.com/uploadfiles/56/sort_excel/pdf/ss22.pdf"
+			(at 364.49 444.5 0)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29105,8 +29041,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Datasheet" ""
 			(at 179.07 220.98 0)
+=======
+		(property "Description" "100V 2A Schottky Diode, SMA"
+			(at 364.49 444.5 0)
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29114,6 +29055,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 179.07 220.98 0)
 			(effects
@@ -29125,11 +29067,22 @@
 		)
 		(pin "1"
 			(uuid "aac44146-a751-4501-9234-8e24118f8fb7")
+=======
+		(pin "2"
+			(uuid "d7cd1e83-9130-4b8b-916b-04ff7f15fee4")
+		)
+		(pin "1"
+			(uuid "b7c9dcfe-1358-4549-9293-385a3719f728")
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 		)
 		(instances
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+<<<<<<< HEAD
 					(reference "#PWR059")
+=======
+					(reference "D5")
+>>>>>>> b9fac8f872367e62851a0cf0de4d531c6aa99d7a
 					(unit 1)
 				)
 			)
