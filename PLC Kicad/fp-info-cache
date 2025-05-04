@@ -1,4 +1,4 @@
-24119434820365130
+24139646014911777
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66198,12 +66198,26 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-Bornera_4
+LM2594M-3.3
+SOIC127P599X175-8N
 
 
 0
-4
+8
+8
+LM2594M-5.0
+SOIC127P599X175-8N
+
+
+0
+8
+8
+M7
+DIOM505270X240
+
+
+0
+2
 2
 Module
 A20_OLINUXINO_LIME2
@@ -90460,6 +90474,27 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SN74HC14PWR
+SOP65P640X120-14N
+
+
+0
+14
+14
+SN74HC541PWR
+SOP65P640X120-20N
+
+
+0
+20
+20
+SS210
+DIOM4336X265N
+
+
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
