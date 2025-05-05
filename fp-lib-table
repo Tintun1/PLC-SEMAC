@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EESTN5")(type "KiCad")(uri "${KIPRJMOD}/DOC/Librerias-Kicad-master/EESTN5.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/DOC/Librerías/Library.pretty")(options "")(descr ""))
+  (lib (name "LM2594M-3.3")(type "KiCad")(uri "${KIPRJMOD}/DOC/Librerías/LM2594M-3.3")(options "")(descr ""))
+  (lib (name "LM2594M-5.0")(type "KiCad")(uri "${KIPRJMOD}/DOC/Librerías/LM2594M-5.0")(options "")(descr ""))
+  (lib (name "SS210")(type "KiCad")(uri "${KIPRJMOD}/DOC/Librerías/SS210")(options "")(descr ""))
+  (lib (name "SN74HC14PWR")(type "KiCad")(uri "${KIPRJMOD}/DOC/Librerías/SN74HC14PWR")(options "")(descr ""))
+  (lib (name "PC817X2NIP0F")(type "KiCad")(uri "${KIPRJMOD}/DOC/Librerías/PC817X2NIP0F")(options "")(descr ""))
+  (lib (name "SN74HC541PWR")(type "KiCad")(uri "${KIPRJMOD}/DOC/Librerías/SN74HC541PWR")(options "")(descr ""))
+  (lib (name "M7")(type "KiCad")(uri "${KIPRJMOD}/DOC/Librerías/M7")(options "")(descr ""))
+  (lib (name "SRR1260-680M")(type "KiCad")(uri "${KIPRJMOD}/DOC/Librerías/SRR1260-680M")(options "")(descr ""))
+)
