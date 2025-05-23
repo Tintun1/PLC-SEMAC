@@ -7422,6 +7422,18 @@
 		(uuid 04127314-04c5-42c6-ae0e-f28ef4cfe986)
 	)
 	(rectangle
+		(start 424.434 165.862)
+		(end 525.018 234.188)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1841ff84-2dd5-4b70-a6e8-a8de52254bfa)
+	)
+	(rectangle
 		(start 142.24 167.64)
 		(end 411.48 407.67)
 		(stroke
@@ -7751,6 +7763,17 @@
 			)
 		)
 		(uuid "a77b0d18-c457-4508-bded-3b0494fa353a")
+	)
+	(text "BUCKS 5V-3.3V"
+		(exclude_from_sim no)
+		(at 432.562 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 238 255 1)
+			)
+		)
+		(uuid "aaba44db-402c-409f-964d-b5c39789cd5e")
 	)
 	(text "NC"
 		(exclude_from_sim no)
@@ -8604,6 +8627,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 208.788) (xy 496.57 211.328)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10096c18-2e62-4a5a-89cc-415fc3ba50d4")
+	)
+	(wire
+		(pts
 			(xy 481.33 363.22) (xy 486.41 363.22)
 		)
 		(stroke
@@ -8691,6 +8724,16 @@
 			(type default)
 		)
 		(uuid "136c943f-59b7-489a-abeb-1084bae11815")
+	)
+	(wire
+		(pts
+			(xy 455.168 203.708) (xy 458.978 203.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13cc7cec-363d-48f8-bea8-83a4551f0e1e")
 	)
 	(wire
 		(pts
@@ -9054,6 +9097,16 @@
 	)
 	(wire
 		(pts
+			(xy 455.168 192.278) (xy 458.978 192.278)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29357034-cf4e-4dcc-8ab8-8637880df0f3")
+	)
+	(wire
+		(pts
 			(xy 638.302 232.41) (xy 638.302 239.014)
 		)
 		(stroke
@@ -9301,6 +9354,16 @@
 			(type default)
 		)
 		(uuid "34fa6e79-3de4-4f3e-b299-55a1545b4ed2")
+	)
+	(wire
+		(pts
+			(xy 492.76 203.708) (xy 496.57 203.708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350bc3ff-09dc-40b0-9d65-d377c7331b6c")
 	)
 	(wire
 		(pts
@@ -10464,6 +10527,16 @@
 	)
 	(wire
 		(pts
+			(xy 458.978 208.788) (xy 458.978 211.328)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa2b2db-3ddc-4296-b0d7-60585a52bd06")
+	)
+	(wire
+		(pts
 			(xy 314.96 433.07) (xy 382.27 433.07)
 		)
 		(stroke
@@ -11071,6 +11144,16 @@
 			(type default)
 		)
 		(uuid "87546f22-72ab-42ff-a803-06ea2a92a233")
+	)
+	(wire
+		(pts
+			(xy 496.57 192.532) (xy 496.57 195.072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b9c236-a81e-4a0e-acf8-674cb15eeafb")
 	)
 	(wire
 		(pts
@@ -11884,6 +11967,16 @@
 	)
 	(wire
 		(pts
+			(xy 455.168 208.788) (xy 458.978 208.788)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7bc1563-2a00-4c7e-baa9-9054e32dd480")
+	)
+	(wire
+		(pts
 			(xy 186.69 393.7) (xy 189.23 393.7)
 		)
 		(stroke
@@ -12201,6 +12294,16 @@
 			(type default)
 		)
 		(uuid "c879a9be-541a-4ccf-b393-f04dc0b571c1")
+	)
+	(wire
+		(pts
+			(xy 492.76 187.452) (xy 496.57 187.452)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a8d70e-9d58-4f60-8314-438fe5553587")
 	)
 	(wire
 		(pts
@@ -12564,6 +12667,16 @@
 	)
 	(wire
 		(pts
+			(xy 492.76 208.788) (xy 496.57 208.788)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8dc2939-80db-4de6-b48b-cf80d2616177")
+	)
+	(wire
+		(pts
 			(xy 683.006 166.878) (xy 683.006 162.052)
 		)
 		(stroke
@@ -12571,6 +12684,16 @@
 			(type default)
 		)
 		(uuid "d93812f7-f6fb-4f76-992d-6f11b233f587")
+	)
+	(wire
+		(pts
+			(xy 492.76 192.532) (xy 496.57 192.532)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9867cdf-1ffc-4a1c-98a9-6bfafdce4e9b")
 	)
 	(wire
 		(pts
@@ -12601,6 +12724,16 @@
 			(type default)
 		)
 		(uuid "dc5c9394-4420-462b-a389-cf6ba8d2b552")
+	)
+	(wire
+		(pts
+			(xy 455.168 187.198) (xy 458.978 187.198)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9bfd09-9b71-4165-9283-86936a48636e")
 	)
 	(wire
 		(pts
@@ -13224,6 +13357,16 @@
 	)
 	(wire
 		(pts
+			(xy 458.978 192.278) (xy 458.978 194.818)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7d565f-6152-47d3-8536-aaa45bb1bf96")
+	)
+	(wire
+		(pts
 			(xy 461.01 311.15) (xy 466.09 311.15)
 		)
 		(stroke
@@ -13281,6 +13424,16 @@
 			(justify left bottom)
 		)
 		(uuid "0ae005d0-3c65-4840-a8d2-7a092d8c30f2")
+	)
+	(label "VCC"
+		(at 496.57 203.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10812194-1f62-4e3f-ad40-0a6296875061")
 	)
 	(label "PB09"
 		(at 461.01 311.15 0)
@@ -13492,6 +13645,16 @@
 		)
 		(uuid "7c74367d-bf6e-4be2-9376-6edbea7a8516")
 	)
+	(label "5V"
+		(at 458.978 203.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d6b63b4-f46f-46f1-adfc-0d2eeb136ab8")
+	)
 	(label "VCC"
 		(at 218.44 311.15 0)
 		(effects
@@ -13662,6 +13825,16 @@
 		)
 		(uuid "aaad274f-b967-490c-9e87-c20501a676a2")
 	)
+	(label "+ buck 5V"
+		(at 458.978 187.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae2ee716-66f9-4e62-9d54-202ed9b4817c")
+	)
 	(label "1Y hc14"
 		(at 298.45 207.01 0)
 		(effects
@@ -13811,6 +13984,16 @@
 			(justify left bottom)
 		)
 		(uuid "e854bb02-449c-4f75-be29-a188ee341739")
+	)
+	(label "5V"
+		(at 496.57 187.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e97e23c0-b091-4995-95a3-d6ff51d35b62")
 	)
 	(label "PB07"
 		(at 461.01 306.07 0)
@@ -17295,6 +17478,139 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 496.57 211.328 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b86bc24-6270-4bc8-b94e-ea96e8d72179")
+		(property "Reference" "#PWR079"
+			(at 496.57 217.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 496.57 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 496.57 211.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 496.57 211.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 496.57 211.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93115b64-4d95-4542-af54-65501bc5e8ea")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EESTN5:TB_1X2")
+		(at 483.87 206.248 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d380e58-052e-4663-a877-111f5f45d586")
+		(property "Reference" "J17"
+			(at 485.14 196.596 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TB_1X2"
+			(at 485.14 199.136 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "EESTN5:BORNERA2"
+			(at 482.6 204.978 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 482.6 204.978 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 483.87 206.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b8c3b34-cb74-4e27-9ec3-43c9f560641e")
+		)
+		(pin "1"
+			(uuid "d37416fc-e0e5-439a-a90c-7636ab49ee21")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 431.8 378.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18426,6 +18742,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 458.978 211.328 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39c09e17-8c7f-453d-a102-8f06eaa13795")
+		(property "Reference" "#PWR078"
+			(at 458.978 217.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 458.978 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.978 211.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 458.978 211.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 458.978 211.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03f5ff5b-77b4-415d-b73f-45c9d4ad4641")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EESTN5:LED")
 		(at 184.15 353.06 0)
 		(unit 1)
@@ -18621,6 +19003,72 @@
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 496.57 195.072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dcb8387-9779-41d0-a45d-d93dc047c326")
+		(property "Reference" "#PWR077"
+			(at 496.57 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 496.57 200.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 496.57 195.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 496.57 195.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 496.57 195.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5282a321-c6d1-4051-83a2-6924c1a8bfe3")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -21305,6 +21753,73 @@
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EESTN5:TB_1X2")
+		(at 446.278 206.248 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c0be635-ebb3-41e0-a0ae-a7101b844188")
+		(property "Reference" "J16"
+			(at 447.548 196.596 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TB_1X2"
+			(at 447.548 199.136 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "EESTN5:BORNERA2"
+			(at 445.008 204.978 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 445.008 204.978 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 446.278 206.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4fa8bf1-4f2f-49cf-8355-7c7ed409d6c2")
+		)
+		(pin "1"
+			(uuid "7f405879-8453-43f3-884b-a6c2a64d23e5")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -24651,6 +25166,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 458.978 194.818 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7b758eb-fe29-460f-8dea-91c08d2503ab")
+		(property "Reference" "#PWR076"
+			(at 458.978 201.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 458.978 199.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.978 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 458.978 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 458.978 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e2629de-a5fc-4b39-8657-a3befbf98ab9")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 633.73 280.67 90)
 		(unit 1)
@@ -25382,6 +25963,73 @@
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EESTN5:TB_1X2")
+		(at 483.87 189.992 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5f66dae-34bd-4f1a-a8ef-2c9bae045f50")
+		(property "Reference" "J15"
+			(at 485.14 180.086 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TB_1X2"
+			(at 485.14 182.626 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "EESTN5:BORNERA2"
+			(at 482.6 188.722 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 482.6 188.722 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 483.87 189.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddaa2f44-3c93-4064-9a2d-a8842ea65a4c")
+		)
+		(pin "1"
+			(uuid "cf4e0cd6-11fb-4494-9d67-29216094bb84")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -28575,6 +29223,73 @@
 			(project "PLC"
 				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EESTN5:TB_1X2")
+		(at 446.278 189.738 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9a8874e-59f0-4441-be85-deaad3d2f248")
+		(property "Reference" "J14"
+			(at 447.548 179.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TB_1X2"
+			(at 447.548 181.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "EESTN5:BORNERA2"
+			(at 445.008 188.468 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 445.008 188.468 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 446.278 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc7bcdbc-a3b5-4fe0-abe7-9b17e05c8696")
+		)
+		(pin "1"
+			(uuid "deb8476c-e3f4-4910-ad17-a39063cc21b1")
+		)
+		(instances
+			(project "PLC"
+				(path "/11961308-b7eb-4fdd-b742-1686e5221d82"
+					(reference "J14")
 					(unit 1)
 				)
 			)
